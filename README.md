@@ -4,7 +4,10 @@ Second personal project that I made.
 All code base built from scratch has no dependencies other than some functions in the standard library and Win32 API to read/write register values.
 The source code, although better structured and clean that my first project, still have a bad OS layer, confusing parsing strategies and a horrible way to do memory managment.
 
-# How to use.
+## Build instructions.
+You could use the build.bat script present in the repository or just compile the file "WindowsLayer.c" with your favorite c compiler.
+
+## How to use.
 - "continue" -> the program runs until a breakpoint is hit.
 - "stepi" -> execute just the next instruction.
 - "out" -> step out of the function.
