@@ -7,7 +7,7 @@ The source code, although better structured and clean that my first project, sti
 # How to use.
 - "continue" -> the program runs until a breakpoint is hit.
 - "stepi" -> execute just the next instruction.
-- "out" -> out step out of the function.
+- "out" -> step out of the function.
 - "in" -> execute just the next source code line.
 - "over" -> step over if the current line have a function call.
 - "register [get (register name)] | [set (register name) (value)]" -> allow to modify the registers of the current thread. The register names correspond to the x86-64 achitecture.
