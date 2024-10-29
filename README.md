@@ -1,5 +1,5 @@
 # MEN_Debugger
-A Windows-only rudimentary CLI debugger using DWARF debug information.
+A Windows-only rudimentary CLI debugger using [DWARF debug information V5](https://dwarfstd.org/doc/DWARF5.pdf).
 Second personal project that I made.
 All code base built from scratch has no dependencies other than some functions in the standard library and Win32 API to read/write register values.
 The source code, although better structured and clean that my first project, still have a bad OS layer, confusing parsing strategies and a horrible way to do memory managment.
